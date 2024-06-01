@@ -2,6 +2,10 @@
 
 En este proyecto se desarrollarán las vistas para el sistema de gestión para el Centro de Asesoría Financiera y Emprendimiento Social (CAFES)
 
+### Tecnologías utilizadas
+- React
+- Tanstack Query
+
 #### Requerimientos del sistema
 - NodeJs 20.11.0 LTS
 - Git (Con tus credenciales y usuario autenticado)
