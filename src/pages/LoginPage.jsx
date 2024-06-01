@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import clipboardImage from '../assets/img/logo.png';
-import authenticate from "../services/login/authenticate";
+import authenticate from "../modules/Core/services/login/authenticate";
 
 // LoginForm component
 const LoginForm = () => {

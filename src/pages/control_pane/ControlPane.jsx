@@ -1,11 +1,11 @@
-import Collaborators from "../../Collaborators/pages/Collaborators.jsx";
-import NavBar from "../../components/NavBar.jsx";
-import Requests from "../../Requests/pages/Requests.jsx";
-import Home from "../../components/Home.jsx";
-import Projects from "../../Projects/pages/Projects.jsx";
+import Collaborators from "../../modules/Collaborators/pages/Collaborators.jsx";
+import NavBar from "../../modules/Core/components/NavBar.jsx";
+import Requests from "../../modules/Requests/pages/Requests.jsx";
+import Home from "../../modules/Core/components/Home.jsx";
+import Projects from "../../modules/Projects/pages/Projects.jsx";
 import { useState, useEffect } from "react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import LogoutModal from '../../components/LogoutModal.jsx';
+import LogoutModal from '../../modules/Core/components/LogoutModal.jsx';
 
 
 function ControlPane(){
