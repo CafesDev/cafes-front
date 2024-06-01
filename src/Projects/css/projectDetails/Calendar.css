@@ -1,0 +1,81 @@
+div.project-calendar{
+    /* background-color: red; */
+    height: 100%;
+    width: 100%;
+}
+
+div.project-calendar > header{
+    display: flex;
+    /* background-color: green; */
+    justify-content: space-between;
+}
+
+div.project-calendar > header > button{
+    border: none;
+    cursor: pointer;
+}
+
+div.project-calendar > main{
+    /* background-color: red; */
+    height: 80%;
+    border-bottom: 1px solid #9f9f9f;
+    padding-bottom: 0.5rem;
+}
+div.project-calendar > main > section.day-names{
+    /* background-color: green; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+div.project-calendar > main > section.day-names > span{
+    background-color: transparent;
+    font-weight: 600;
+
+}
+
+div.project-calendar > main > section.days{
+    /* background-color: blue; */
+    height: 90%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);  
+    grid-template-rows: repeat(5, 1fr);  
+    gap: 0.1rem;
+
+}
+
+div.project-calendar > main > section.days > span.intermediate{
+    border: 2px solid #70377a;
+}
+
+
+div.project-calendar > main > section.days > span.marker{
+    background-color: #7a4685;
+    opacity: 1;
+    color: white;
+}
+
+
+div.project-calendar > main > section.days > span.today{
+    background-color: #939393;
+    opacity: 0.6;
+}
+
+div.project-calendar > main > section.days > span.today.marker{
+    background-color: #7a4685;
+}
+
+div.project-calendar > main > section.days > span.not-active-month{
+    opacity: 0.4;
+}
+div.project-calendar > main > section.days > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 0.3rem;
+}
+
+div.project-calendar > footer{
+
+}

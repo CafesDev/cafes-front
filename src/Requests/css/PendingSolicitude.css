@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+div.card-container{
+    position: relative;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    /* background-color: #ffff; */
+    background-color: #833e78;
+    height: 12rem;
+    /* border: 1rem solid green; */
+    aspect-ratio: 19/12;
+    overflow: hidden;
+}
+
+div.card-container > div.card{
+    border-radius: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 92%;
+    height: 100%;
+    padding: 1rem;
+}
+
+div.card > header{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+}
+
+header > span.icon{
+    display: grid;
+    place-items: center;
+    height: 3.5rem;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    color: white;
+    aspect-ratio: 1;
+    background-color: #833e78;
+}
+
+header > aside{
+    padding-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    /* background-color: green; */
+}
+
+aside > span.nombre-solicitante {
+    font-size: 0.9rem;
+    text-wrap: nowrap;
+    /* color: black !important;  */
+    opacity: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight: 500;
+    max-width: 15ch;
+    /* background-color: pink; */
+}
+aside > span{
+    /* background-color: red; */
+    text-align: left;
+    font-size: 0.8rem;
+    color: #2D253A;
+    opacity: 60%;
+}
+
+header > div.interaction{
+    display: flex;
+    justify-self: start;
+    position: absolute;
+    top: 0.7rem;
+    right: 0;
+}
+
+div.interaction > button{
+    background-color: transparent;
+    border: none;
+}
+
+svg.accept,svg.reject{
+    cursor: pointer;
+}
+
+svg.accept > path{
+    fill: #269031;
+}
+svg.reject > path{
+    fill: #F66969;
+}
+
+div.card > main{
+    padding-top: 0.5rem;
+    text-align: start;
+}
+
+div.card > main > h6{
+    font-size: 0.9rem;
+}
+
+div.card > main > p{
+    font-size: 0.7rem;
+}

@@ -1,0 +1,57 @@
+div.data-table-container{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    }
+
+div.data-table-container table.data-table{
+    width: 100%;
+    border-collapse: separate;
+}
+
+div.data-table-container table.data-table > thead > tr > th{
+    border: none;
+    outline: none;
+    padding: 1rem 2rem;
+    font-weight: 500;
+    background-color: transparent;
+}
+
+div.data-table-container table.data-table > thead > tr > th:first-child{
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+div.data-table-container table.data-table > thead > tr > th:last-child{
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+div.data-table-container table.data-table thead{
+    background-color: #F0EFE8;
+    position: relative;
+}
+
+
+div.data-table-container table.data-table > tbody > tr{
+    position: relative;
+    border-bottom: 1px solid #F0EFE8;
+    border: none;
+    outline: none;
+}
+
+
+
+div.data-table-container table.data-table > tbody > tr::after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+div.data-table-container table.data-table > tbody > tr > td:first-child{
+    padding: 1rem 0
+}   

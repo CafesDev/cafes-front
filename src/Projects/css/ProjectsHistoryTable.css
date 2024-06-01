@@ -1,0 +1,13 @@
+main.table-content {
+    margin-top: 3rem;
+    background-color: white;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+}
+main.table-content > button#boton-pdf{
+    background-color: white;
+    width: 2rem;
+    align-self: flex-end;
+}

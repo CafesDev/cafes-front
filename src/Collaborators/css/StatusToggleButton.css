@@ -1,0 +1,46 @@
+ul.status-toggle-button{
+    position: relative;
+    list-style: none;
+    background-color: #d9d9d9;
+    display: flex;
+    gap: 4rem;
+    padding: 1rem 2rem;
+    border-radius: 0.6rem;
+    justify-content: space-evenly;
+}
+
+ul.status-toggle-button > li{
+    color: black;
+    cursor: pointer;
+}
+
+ul.status-toggle-button > li.active{
+    font-weight: bold;
+}
+
+ul.status-toggle-button::before{
+    position: absolute;
+    content: '';
+    width: 33.3333333%;
+    height: 100%;
+    background-color: #8D397B;
+    opacity: 60%;
+    border-radius: 0.6rem;
+    top: 0;
+
+}
+
+ul.n1::before{
+    left: 34%;
+}
+ul.n0::before{
+    left: 0;
+}
+ul.n2::before{
+    left: 66.666666666%;
+}
+
+ul.n1, ul.n0, ul.n2{
+    transition: left ease-in 0.2s;
+}
+

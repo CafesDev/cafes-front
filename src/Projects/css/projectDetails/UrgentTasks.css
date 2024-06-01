@@ -1,0 +1,47 @@
+div.urgent-tasks {
+    height: 100%;
+    padding-bottom: 0rem; 
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+  }
+
+div.urgent-tasks > header > h5{
+    font-weight: 700;
+    padding: 0.4rem;
+}
+
+div.urgent-tasks > div > div{
+    min-width: 25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-bottom: 1px solid #e8f0e9;
+    padding: 0.2rem;
+    margin-top: 10px;
+}
+
+div.urgent-tasks > div > div > input {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #DBDAD3;
+    margin-left: 25px;
+}
+
+div.urgent-tasks > div > div > input:checked {
+    background-color: #B9E49F;
+    border-color: #B9E49F;
+}
+
+div.urgent-tasks > div > div > label{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: auto;
+    letter-spacing: 0;
+    color: #7F7A7A;
+    opacity: 1;
+  }

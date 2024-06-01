@@ -1,0 +1,65 @@
+main.edit-asignados-modal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+main.edit-asignados-modal > section.asignados > h5{
+    background-color: white;
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+main.edit-asignados-modal > section.asignados > ul {
+    padding: 0;
+    list-style: none;
+    background-color: white;
+}
+main.edit-asignados-modal > section.asignados > ul > li{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+
+main.edit-asignados-modal > section.asignados > ul > li > aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+main.edit-asignados-modal > section.asignados > ul > li > figure{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #833e78;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-weight: 700;
+    color: white;
+    font-size: 1.2rem;
+}
+
+main.edit-asignados-modal > section.asignados > ul > li > .remove{
+    margin-left: auto;
+    cursor: pointer;
+}
+
+main.edit-asignados-modal > div.asignar{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+main.edit-asignados-modal > div.asignar > button{
+    background-color: #833e78;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+}

@@ -1,0 +1,14 @@
+main.home-content{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+}
+
+
+@media (max-width: 1080px) {
+    main.home-content{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

@@ -1,0 +1,115 @@
+div.project-directory{
+    height: 100%;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+div.project-directory > header{
+    display: flex;
+    padding: 1rem 0;
+}
+div.project-directory > header > h5{
+    font-weight: 700;
+}
+
+div.project-directory > ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-height: 25rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+div.project-directory > ul > li:first-child{
+    border-top: 1px solid #F0EFE8;
+}
+div.project-directory > ul > li{
+    /* min-width: 25rem; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    border-bottom: 1px solid #F0EFE8;
+    padding: 1rem 0;
+}
+
+div.project-directory > ul > li > .remove-tarea{
+    cursor: pointer;
+    transition: transform 0.1s ease-in;
+}
+div.project-directory > ul > li > .remove-tarea:hover{
+    transform: scale(110%);
+}
+
+div.project-directory > ul > li > .edit-button{
+    cursor: pointer;
+    transition: transform 0.2s ease
+}
+
+div.project-directory > ul > li > .edit-button:hover{
+    transform: scale(110%);
+}
+
+div.project-directory > ul > li > aside{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 10rem;
+    padding: 0;
+}
+
+div.project-directory > ul > li > aside > h6{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #7F7A7A;
+    padding: 0;
+}
+
+div.project-directory > ul > li > div.colaboradores{
+    display: flex;
+    margin-left: auto;
+    cursor: pointer;
+}
+div.project-directory > ul > li > div.colaboradores > figure{
+    width: 2rem;
+    margin-left: -0.5rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #833e78;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 1px solid white;
+}
+
+div.project-directory > ul > li > div.colaboradores > figure.rest{
+    background-color: #833e78;
+}
+
+button.add-more-tareas{
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: #7A4685;
+    font-weight: 700;
+    border: 3px solid #7A4685;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    /* margin-top: 1rem; */
+    opacity: 0.6;
+}

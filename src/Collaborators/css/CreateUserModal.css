@@ -1,0 +1,122 @@
+dialog.create-user{
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-35%);
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 50vw;
+    z-index: 1;
+}
+
+dialog.create-user > main{
+    padding-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+dialog.create-user > header{
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: start;
+}
+
+header > h2{
+    text-align: start;
+}
+
+div.renglon6-3{
+    display: flex;
+    gap: 3rem;
+}
+
+div.renglon6-3 div.input-control:first-child{
+    width: 60%;
+}
+
+div.renglon6-3 div.input-control:last-child{
+    width: 30%;
+}
+
+div.renglon6-3 > div.input-control{
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+
+}
+
+div.renglon5-5{
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 5rem;
+}
+
+div.renglon5-5 div.input-control:first-child{
+    width: 26rem;
+}
+
+div.renglon5-5 div.input-control:last-child{
+    width: 26rem;
+}
+
+div.renglon5-5 > div.input-control{
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+
+}
+
+div.input-control > label{
+    align-self: flex-start;
+    margin-left: 1rem;
+    opacity: 70%;
+    font-weight: 500;
+}
+
+div.input-control > input{
+    outline: none;
+    border: 2px solid #F7F9FC;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+div.input-control > select{
+    border: 2px solid #F7F9FC;
+    border-radius: 1rem;
+    padding: 1rem;
+    outline: none;
+}
+
+div.buttons{
+    /* background-color: green; */
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+}
+
+div.buttons > button{
+    padding: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 0.75rem;
+    font-weight: 500;
+}
+
+
+div.buttons > button.cancel{
+    border: 3px solid #833e78;
+    background-color: white;
+    color: #833e78;
+}
+
+div.buttons > button.save{
+    border: 3px solid #833e78;
+    color: white;
+    background-color: #833e78;
+}

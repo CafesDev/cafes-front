@@ -1,0 +1,154 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.table-filter {
+  background-color: #d9d9d9 !important;
+}
+
+.table-filter .btn-check:checked+.btn{
+  background-color: #957692 !important;
+  border: none;
+  border-radius: 6px !important;
+  font-weight: 700;
+}
+
+.addMoreIcon {
+  width: 2rem;
+}
+
+table tr td, table tr th{
+  background-color: transparent !important;
+}
+
+.requestsTable thead {
+  background-color: #eeeae5 !important;
+}
+
+body {
+  background-color: #eeeae5 !important;
+}
+.avatar{
+  width: 60px;
+  height: 60px;
+}
+
+.requestsIcon {
+  max-width: 1.5rem;
+}
+
+.notifCard {
+  border-left: 1rem solid #833e79;
+}
+
+section > *{
+  background-color: #f0efe8;
+}
+
+main{
+  position: relative;
+}
+
+main.main-component{
+  position: absolute;
+  left: 8rem;
+  width: 92vw;
+  display: grid;
+  place-items: center;
+}
+
+#boton-colab{
+  background-color: #833e79;
+}
+
+#boton-pdf{
+  background-color: #eeeae5;
+}
+
+#cerrarBoton{
+  background-color: white;
+  color: #833e79;
+  border: 2px solid #833e79;
+}
+
+#guardarBoton{
+  background-color: #833e79;
+  border: 2px solid #833e79;
+
+}
+
+#descripcionBoton{
+  border: 2px solid #833e79;
+  color: #833e79;
+  background-color: #f3f0f0;
+  
+}
+
+
+
+::placeholder{
+  font-size: 12px;
+}
+
+.modal-backdrop.show {
+  opacity: .8;
+  filter: alpha(opacity=80); /* Para versiones anteriores de IE */
+}
+
+.background{
+  background-color: #eeeae5;
+}
+
+
+div.table-wrapper{
+  margin-top: 1rem;
+  background-color: white;
+  padding: 0rem;
+  border-radius: 20px;
+  padding: 2rem;
+  padding-top: 0rem;
+}
+
